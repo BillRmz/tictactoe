@@ -5,7 +5,8 @@ gameboard.addEventListener('click', TakeTurn);
 
 function TakeTurn(e){
  const item = e.target
- let i = item.cellIndex
+ let i = item.id
+
  console.log({item, i})
 
  
