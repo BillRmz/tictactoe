@@ -8,12 +8,13 @@
 
 .gameboard-container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border: solid black 2px;
   width: 40%;
   padding: 1rem;
 
-  
 }
 
 
@@ -26,6 +27,7 @@
   border-color: #0f0f0f;
   border-style: solid;
   color: #000000;
+  cursor: pointer;
 }
 
 .gameboard td {
@@ -33,4 +35,10 @@
   border-color: #0f0f0f;
   border-style: solid;
   padding: 3px;
+}
+
+.info{
+  display: flex;
+  gap: 0.5rem; 
+  align-items: center;
 }
